@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgreen;
+    margin-bottom: 10px;
+}
+
+nav .links a{
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+main .images img{
+    height: 130px;
+    width: 240px;
+    border-radius: 4px;
+    object-fit: cover;
+}
